@@ -3,50 +3,51 @@
 function fillMapVo(anyMap){
 	np = 0;
 	//anyMap.set(np++, new Vo("Найдите верное сочетание на клавиатуре","","","",1));
+
 	anyMap.set(np++, new Vo("к_нтинет","о","а","е",""));
 	anyMap.set(np++, new Vo("к_ридор","о","а","э",""));
-	anyMap.set(np++, new Vo("кр_терий","и","е","о",""));
-	anyMap.set(np++, new Vo("л_боратория","а","о","и",""));
-	anyMap.set(np++, new Vo("лаб_ратория","о","а","е",""));
-	anyMap.set(np++, new Vo("л_коничность","а","о","и",""));
-	anyMap.set(np++, new Vo("лак_ничность","о","а","я",""));
-	anyMap.set(np++, new Vo("л_терея","о","а","и",""));
-	anyMap.set(np++, new Vo("лот_рея","е","и","а",""));
-	anyMap.set(np++, new Vo("м_кулатура","а","о","ы",""));
-	anyMap.set(np++, new Vo("макул_тура","а","о","у",""));
-	anyMap.set(np++, new Vo("м_рионетка","а","о","ь",""));
-	anyMap.set(np++, new Vo("мар_онетка","и","е","а",""));
-	anyMap.set(np++, new Vo("мари_нетка","о","а","ы",""));
-	anyMap.set(np++, new Vo("п_ссимизм","е","и","о",""));
-	anyMap.set(np++, new Vo("пи_имизм","сс","с","гг",""));
-	anyMap.set(np++, new Vo("тр_ллейбус","о","а","э",""));
-	anyMap.set(np++, new Vo("тро_ейбус","лл","л","ллл",""));
-	anyMap.set(np++, new Vo("к_ллекция","о","а","и",""));
-	anyMap.set(np++, new Vo("ко_екция","лл","л","ллл",""));
-	anyMap.set(np++, new Vo("су_икс","фф","ффф","ф",""));
-	anyMap.set(np++, new Vo("м_теор","е","и","а",""));
-	anyMap.set(np++, new Vo("мет_ор","е","","о",""));
-	anyMap.set(np++, new Vo("п_лисадник","а","о","и",""));
-	anyMap.set(np++, new Vo("пал_садник","и","а","е",""));
-	anyMap.set(np++, new Vo("п_ликлиника","о","а","и",""));
-	anyMap.set(np++, new Vo("пол_клиника","и","е","а",""));
-	anyMap.set(np++, new Vo("поликли_ика","н","нн","ннн",""));
-	anyMap.set(np++, new Vo("р_пертуар","е","и","л",""));
-	anyMap.set(np++, new Vo("реп_ртуар","е","и","а",""));
-	anyMap.set(np++, new Vo("_диннадцать","о","а","и",""));
-	anyMap.set(np++, new Vo("оди_адцать","нн","н","нннн",""));
-	anyMap.set(np++, new Vo("одинна_цать","д","т","б",""));
-	anyMap.set(np++, new Vo("_тчизна","о","а","и",""));
-	anyMap.set(np++, new Vo("тру_еник","ж","жж","жжж",""));
-	anyMap.set(np++, new Vo("труж_ник","е","и","а",""));
-	anyMap.set(np++, new Vo("тружи_ик","н","нн","нннннн",""));
-	anyMap.set(np++, new Vo("ун_верситет","и","е","а",""));
-	anyMap.set(np++, new Vo("унив_рситет","е","и","а",""));
-	anyMap.set(np++, new Vo("ч_ресчур","е","и","а",""));
-	anyMap.set(np++, new Vo("чер_счур","е","и","а",""));
-	anyMap.set(np++, new Vo("экз_мпляр","е","и","а",""));
-	anyMap.set(np++, new Vo("эксп_диция","е","и","а",""));
-	anyMap.set(np++, new Vo("ю_ый","н","нн","ннн",""));
+	// anyMap.set(np++, new Vo("кр_терий","и","е","о",""));
+	// anyMap.set(np++, new Vo("л_боратория","а","о","и",""));
+	// anyMap.set(np++, new Vo("лаб_ратория","о","а","е",""));
+	// anyMap.set(np++, new Vo("л_коничность","а","о","и",""));
+	// anyMap.set(np++, new Vo("лак_ничность","о","а","я",""));
+	// anyMap.set(np++, new Vo("л_терея","о","а","и",""));
+	// anyMap.set(np++, new Vo("лот_рея","е","и","а",""));
+	// anyMap.set(np++, new Vo("м_кулатура","а","о","ы",""));
+	// anyMap.set(np++, new Vo("макул_тура","а","о","у",""));
+	// anyMap.set(np++, new Vo("м_рионетка","а","о","ь",""));
+	// anyMap.set(np++, new Vo("мар_онетка","и","е","а",""));
+	// anyMap.set(np++, new Vo("мари_нетка","о","а","ы",""));
+	// anyMap.set(np++, new Vo("п_ссимизм","е","и","о",""));
+	// anyMap.set(np++, new Vo("пе_имизм","сс","с","гг",""));
+	// anyMap.set(np++, new Vo("тр_ллейбус","о","а","э",""));
+	// anyMap.set(np++, new Vo("тро_ейбус","лл","л","ллл",""));
+	// anyMap.set(np++, new Vo("к_ллекция","о","а","и",""));
+	// anyMap.set(np++, new Vo("ко_екция","лл","л","ллл",""));
+	// anyMap.set(np++, new Vo("су_икс","фф","ффф","ф",""));
+	// anyMap.set(np++, new Vo("м_теор","е","и","а",""));
+	// anyMap.set(np++, new Vo("мет_ор","е","э","и",""));
+	// anyMap.set(np++, new Vo("п_лисадник","а","о","и",""));
+	// anyMap.set(np++, new Vo("пал_садник","и","а","е",""));
+	// anyMap.set(np++, new Vo("п_ликлиника","о","а","и",""));
+	// anyMap.set(np++, new Vo("пол_клиника","и","е","а",""));
+	// anyMap.set(np++, new Vo("поликли_ика","н","нн","ннн",""));
+	// anyMap.set(np++, new Vo("р_пертуар","е","и","л",""));
+	// anyMap.set(np++, new Vo("реп_ртуар","е","и","а",""));
+	// anyMap.set(np++, new Vo("_диннадцать","о","а","и",""));
+	// anyMap.set(np++, new Vo("оди_адцать","нн","н","нннн",""));
+	// anyMap.set(np++, new Vo("одинна_цать","д","т","б",""));
+	// anyMap.set(np++, new Vo("_тчизна","о","а","и",""));
+	// anyMap.set(np++, new Vo("тру_еник","ж","жж","жжж",""));
+	// anyMap.set(np++, new Vo("труж_ник","е","и","а",""));
+	// anyMap.set(np++, new Vo("труже_ик","н","нн","нннннн",""));
+	// anyMap.set(np++, new Vo("ун_верситет","и","е","а",""));
+	// anyMap.set(np++, new Vo("унив_рситет","е","и","а",""));
+	// anyMap.set(np++, new Vo("ч_ресчур","е","и","а",""));
+	// anyMap.set(np++, new Vo("чер_счур","е","и","а",""));
+	// anyMap.set(np++, new Vo("экз_мпляр","е","и","а",""));
+	// anyMap.set(np++, new Vo("эксп_диция","е","и","а",""));
+	// anyMap.set(np++, new Vo("ю_ый","н","нн","ннн",""));
 
 
 
@@ -77,7 +78,7 @@ function fillMapVo(anyMap){
 	// anyMap.set(np++, new Vo("Найдите верное сочетание на клавиатуре","тьб","ьти","иьб",1));
 	// anyMap.set(np++, new Vo("Найдите верное сочетание на клавиатуре","ьбю","бью","тбю",1));
 	
-	anyMap.set(np++, new Vo(`ТЕСТ ЗАВЕРШЕН! Повторить там, где ошиблись?`,"да!","нет","начать с самого начала",0));
+	anyMap.set(np++, new Vo(`ТЕСТ ЗАВЕРШЕН! Повторить там, где ошиблись?`,"да!","нет","начать с самого начала","1"));
 
 	//Vo.voVsegoInteger = window.maps.size;
 	Vo.voTekInteger = 0;		
@@ -173,15 +174,14 @@ function finish(otvet){
 	}
 	if (otvet==2) {
 		//alert(`ответ ${otvet}`);
-		if (intOtvet ==2){
 			let element = document.querySelector("#otv2")
 			element.textContent = "...";
-		}
 		//window.mapsError.clear();
 		//window.mapsErrorInteger=0;
 		//display(window.voTekInteger);
 	}
 	if (otvet==3){
+		Vo.voVsegoInteger = 0; //обязательно перед перезаполнением списка
 		fillMapVo(window.maps);
 		//Очищу и хранилище ошибок:
 		window.mapsError.clear();
@@ -326,7 +326,7 @@ dw(`<div name="voDiv" id="voDiv" align="center">`);
 dw(`	<span name="vopros" id="vopros"><h3> привет, ученик! начнем тест? </h3></span>`);
 dw(`	<br>`);
 dw(`	<br>`);
-dw(`	<button name="otv" id="otv1" onclick=proverka(1)>да</button>`);
+dw(`	<button name="otv" id="otv1" onclick=proverka(1)>да </button>`);
 dw(`	<button name="otv" id="otv2" onclick=proverka(2)>да</button>`);
 dw(`	<button name="otv" id="otv3" onclick=proverka(3)>да</button>`);
 dw(`	<br>`);
